@@ -20,7 +20,7 @@
 set -o nounset                                  # Treat unset variables as an error
 
 build(){
-    go build -ldflags='-X k8s.io/component-base/version.gitVersion=v1.18.9 -X k8s.io/client-go/pkg/version.gitVersion=v1.18.9' -o kube-scheduler cmd/knls/main.go
+    go build -ldflags='-X k8s.io/component-base/version.gitVersion=v1.18.9 -X k8s.io/client-go/pkg/version.gitVersion=v1.18.9' -o kube-scheduler cmd/cks/main.go
 }
 
 
