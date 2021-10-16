@@ -1,4 +1,4 @@
-module Cks
+module cks
 
 go 1.16
 

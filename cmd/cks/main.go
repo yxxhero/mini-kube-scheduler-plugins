@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"knls/pkg/scheduler"
+	"cks/pkg/scheduler"
 
 	"github.com/spf13/pflag"
 
