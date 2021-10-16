@@ -1,4 +1,5 @@
 ## mini-kube-scheduler-plugins
+The current function is to manually adjust the weight of nodes by playing weight labels for nodes and giving different scores.
 
 ### 1.Base Knowledge  
 k8s version: v1.18.9
