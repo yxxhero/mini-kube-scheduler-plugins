@@ -36,7 +36,7 @@ profiles:
 ```shell
 # https://github.com/yxxhero/mini-kube-scheduler-plugins/blob/9097ff78304590e7d4d5462e99719e955b36c995/pkg/scheduler/custom_scheduler.go#L36-L39
 if err := framework.DecodeInto(config, &args); err != nil {
-	klog.Errorf("Load knls config error: %s", err)
+	klog.Errorf("Load Cks config error: %s", err)
 	return nil, err
 }
 ```
