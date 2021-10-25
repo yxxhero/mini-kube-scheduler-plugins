@@ -34,7 +34,7 @@ func New(config *runtime.Unknown, handle framework.FrameworkHandle) (framework.P
 	klog.Infof("Create new Cks scheduler")
 	args := Args{}
 	if err := framework.DecodeInto(config, &args); err != nil {
-		klog.Errorf("Load knls config error: %s", err)
+		klog.Errorf("Load Cks config error: %s", err)
 		return nil, err
 	}
 	klog.Infof("default weight for node", args.DefaultWeight)
